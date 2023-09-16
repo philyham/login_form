@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+form {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 0 50px;
+  
+}
+
+label {
+ font-size: 18px;
+ text-align: left;
+ font-weight: 500;
+}
+
+input {
+ width: 100%;
+ padding: 10px 0;
+ text-align: center;
+ margin-top: 0.5rem;
+ margin-bottom: 1rem;
+ font-size: 16px;
+ outline: none;
+}
+
+input:focus {
+    border: 2px solid #085c30;
+}
+
+button {
+  background-color: #0F8649;
+  color: #FFF;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #0F8649;
+}
+
+button:hover {
+    background-color: #085c30;
+    border: 1px solid #085c30;
+}
+
